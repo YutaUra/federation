@@ -10,14 +10,14 @@ import { createHttpLink } from '@apollo/client/link/http';
 import fetch from 'node-fetch';
 import { ApolloGateway } from '../..';
 import { Plugin, Config, Refs } from 'pretty-format';
-import { Report, Trace } from 'apollo-reporting-protobuf';
+import { Report, Trace } from '@apollo/usage-reporting-protobuf';
 import { fixtures } from 'apollo-federation-integration-testsuite';
 import { nockAfterEach, nockBeforeEach } from '../nockAssertions';
 import { GraphQLSchemaModule } from '@apollo/subgraph/src/schema-helper';
 import resolvable, { Resolvable } from '@josephg/resolvable';
 
 // Normalize specific fields that change often (eg timestamps) to static values,
-// to make snapshot testing viable.  (If these helpers are more generally
+// to make snapshot testing viable.  (If tFhese helpers are more generally
 // useful, they could be moved to a different file.)
 
 const alreadyProcessed = '__already_processed__';
