@@ -30,7 +30,7 @@
     "@apollo/federation-internals": "file:../internals-js",
     "@apollo/query-planner": "file:../query-planner-js",
     "@apollo/server-gateway-interface": "https://pkg.csb.dev/apollographql/apollo-server/commit/bdd19924/@apollo/server-gateway-interface",
-    "@apollo/usage-reporting-protobuf": "^4.0.0-alpha.1",
+    "@apollo/usage-reporting-protobuf": "https://pkg.csb.dev/apollographql/apollo-server/commit/bdd19924/@apollo/usage-reporting-protobuf",
     "@apollo/utils.createhash": "^1.1.0",
     "@apollo/utils.fetcher": "^1.0.0",
     "@apollo/utils.isnodelike": "^1.1.0",
